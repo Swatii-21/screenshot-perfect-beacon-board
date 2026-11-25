@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project architecture
+- Keep LCU monitoring views in one route and isolate demonstration telemetry in a browser-safe module so no data is mistaken for live hardware.

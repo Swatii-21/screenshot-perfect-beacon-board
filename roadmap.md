@@ -1,0 +1,3 @@
+- [ ] Build six-section LCU monitoring dashboard with simulated telemetry and responsive navigation.
+- [ ] Add secure email/password sign-in and protect the dashboard.
+- [ ] Verify dashboard navigation, filters, charts, sign-in states, and project diagnostics.
