@@ -35,7 +35,7 @@ npm run dev
 
 Development server http://localhost:8080
 
-**Testing & Code Quality**
+### Testing & Code Quality 
 Unit & component tests: npm run test
 Linting: npm run lint
 Build production bundle: npm run build
