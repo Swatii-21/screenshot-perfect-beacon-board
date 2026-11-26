@@ -1,24 +1,42 @@
-# Screenshot Perfect Beacon Board
+# LCU & Antenna Monitoring Console
 
-Implement exactly the screenshot and nothing else
+A modern, high-precision telemetry and antenna tracking dashboard built with TanStack Start, React 19, Tailwind CSS v4, and Lovable Cloud.
 
-This project was built with [Lovable](https://lovable.dev).
+---
 
-## Build with Lovable
+## 🛠️ Tech Stack
+- **Framework:** React 19 & TanStack Start v1 (Vite)
+- **Styling:** Tailwind CSS v4 & Radix UI
+- **Visuals:** Recharts & custom SVG polar radar/compass
+- **Backend / Auth:** Lovable Cloud (PostgreSQL & Supabase JS client)
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/b137c8e5-926c-4291-934c-888cc5a24762).
+---
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+## 🚀 How to Run Locally
 
-## Development
+### Prerequisites
+- [Node.js](https://nodejs.org/) (version 20 or higher recommended)
+- `npm` or `bun`
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+### 1. Clone the repository
+```bash
+git clone <your-github-repo-url>
+cd <repo-folder>
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+### 2. Install dependencies
+npm install
+
+### 3. Setup Environment Variables
+VITE_SUPABASE_URL="https://nptqwtjkegewmdwzjvqg.supabase.co"
+VITE_SUPABASE_PUBLISHABLE_KEY="sb_publishable_5L_aSfc7Q09-YGwUWeNiIQ_qwgPLx5E"
+
+### 4. Start Development Server
 npm run dev
-```
+
+Development server http://localhost:8080
+
+**Testing & Code Quality**
+Unit & component tests: npm run test
+Linting: npm run lint
+Build production bundle: npm run build
+
